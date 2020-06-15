@@ -19,6 +19,7 @@ export default {
     // const result = this.add(2,3,6,7)
     const result = this.Fibonacci2(1000)
     console.log(result, 'result')
+    console.log('******************' + navigator.userAgent + '******************')
   },
   methods: {
     textAsset() {
